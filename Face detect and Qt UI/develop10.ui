@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>develop10Class</class>
+ <widget class="QMainWindow" name="develop10Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1009</width>
+    <height>563</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>develop10</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="Screen" name="SCREEN" native="true"/>
+      </item>
+      <item>
+       <widget class="MySlider" name="Slider">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QListWidget" name="SnapList">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>165</width>
+        <height>16777215</height>
+       </size>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>354</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetMinAndMaxSize</enum>
+       </property>
+       <property name="rightMargin">
+        <number>1</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="sizeIncrement">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="baseSize">
+            <size>
+             <width>0</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Angry</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar0">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>DISgust</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar1">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Fear</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar2">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="QLabel" name="label_4">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Happy</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar3">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QLabel" name="label_5">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Sad</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar4">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_6">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Surprise</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar5">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="QLabel" name="label_7">
+           <property name="minimumSize">
+            <size>
+             <width>54</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="text">
+            <string>Neutral</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="progressBar6">
+           <property name="maximumSize">
+            <size>
+             <width>300</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Microsoft YaHei</family>
+            </font>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%v</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeType">
+          <enum>QSizePolicy::Maximum</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>354</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item>
+        <widget class="paintMap" name="HotMap" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Expanding">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>344</width>
+           <height>200</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1009</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="File_camera"/>
+    <addaction name="File_Video"/>
+    <addaction name="File_Image"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <action name="File_camera">
+   <property name="text">
+    <string>摄像头</string>
+   </property>
+  </action>
+  <action name="File_Video">
+   <property name="text">
+    <string>视频</string>
+   </property>
+  </action>
+  <action name="File_Image">
+   <property name="text">
+    <string>图片</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>Screen</class>
+   <extends>QWidget</extends>
+   <header location="global">Screen.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>paintMap</class>
+   <extends>QWidget</extends>
+   <header location="global">paintMap.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>MySlider</class>
+   <extends>QSlider</extends>
+   <header location="global">myslider.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="develop10.qrc"/>
+ </resources>
+ <connections/>
+</ui>
